@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block content %}
+<form action="/betHorse" method="post">
+    raceid:<input type="text" name="a"> 
+    start: <input type="text" name="b">
+    end: <input type="text" name="c">
+    <input type="submit" value="投票">
+</form>
+{% endblock %}
+

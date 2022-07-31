@@ -41,20 +41,6 @@ users = {
     "8anxgood": "8anxgood"
 }
 
-# Commands Usage:
-# $ python [raceid] [race_start No.] [race_end No.]
-# 
-# Sample:
-# $ source myenv/bin/activate
-# $ cd rakuten_keiba
-# (myenv)$ ./getraceidtoday.sh
-# 水沢: 2022032111061102 
-# 船橋: 2022032119141201
-# 高知: 2022032131291805
-# 
-# (myenv)$ python betHorse.py 2022032111061102 2 10
-#
-
 # loginID   : 楽天会員ログイン ユーザID 
 # password  : 上記パスワード
 # rakutenpw : 楽天会員用の暗証番号（4桁)
